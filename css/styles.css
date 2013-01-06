@@ -57,9 +57,14 @@ a:hover {
     background: #ffffff;
     overflow: hidden;
 
+    -moz-box-shadow:0 0 5px #666666;
+    -webkit-box-shadow:0 0 5px #666666;
+    box-shadow:0 0 5px #666666;
+}
+.box:hover {
     -moz-box-shadow:0 0 8px #666666;
     -webkit-box-shadow:0 0 8px #666666;
-    box-shadow:0 0 8px #666;
+    box-shadow:0 0 8px #666666;
 }
 .box .description {
     float: left;
@@ -122,7 +127,7 @@ a:hover {
     clear: both;
     display: block;
     margin-left: 20px;
-    margin-top: 100px;
+    margin-top: 98px;
 }
 
 .box .appMeta p {
