@@ -91,9 +91,10 @@ a:hover {
 .box .divider {
     float: left;
     display: block;
-    width: 5px;
+    width: 3px;
     height: 500px;
     border: 0px;
+    margin-left: 2px;
 }
 
 .box .appMeta {
