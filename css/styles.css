@@ -1,0 +1,144 @@
+body {
+    background: #fafaf9;
+    background-image: url('../images/wool.png');
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #ff6666;
+}
+a:hover {
+    color: #525252;
+}
+
+/* Name */
+#nameTitle {
+    margin-top: 100px;
+    text-align: center;
+    color: #000000;
+}
+#nameTitle h1 {
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#nameTitle h2 {
+    font-size: 22px;
+    font-weight: 400;
+}
+#nameTitle a {
+    color: #000000;
+}
+#nameTitle a:hover {
+    color: #000000;
+}
+
+/* Contact */
+#contact {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#contact a {
+    font-size: 26px;
+    text-shadow: 0px -1px 1px #666666;
+}
+
+/* Portfolio Boxes */
+.box {
+    height: 500px;
+    margin-bottom: 150px;
+    text-align: center;
+    background: #ffffff;
+    overflow: hidden;
+
+    -moz-box-shadow:0 0 8px #666666;
+    -webkit-box-shadow:0 0 8px #666666;
+    box-shadow:0 0 8px #666;
+}
+.box .description {
+    float: left;
+    width: 305px;
+    padding: 25px;
+    text-align: left;
+    margin-top: -4px;
+}
+.box .description h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.box p {
+    clear: both;
+    line-height: 170%;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.box .description a {
+    font-size: 20px;
+}
+
+.box .image {
+    width: 600px;
+    float: right;
+}
+
+.box .divider {
+    float: left;
+    display: block;
+    width: 5px;
+    height: 500px;
+    border: 0px;
+}
+
+.box .appMeta {
+    width: 500px;
+}
+
+.box .appMeta .appIcon {
+    float: left;
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.box .appMeta h2 {
+    float: left;
+    margin-top: 55px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.box .appMeta .badge {
+    clear: both;
+    display: block;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.box .appMeta p {
+    height: 190px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.box .appScreen {
+    float: right;
+    width: 400px;
+    margin-top: -470px;
+    margin-right: 5px;
+}
+
+.box .appScreeniPad {
+    float: right;
+    width: 400px;
+    margin-top: -470px;
+}
