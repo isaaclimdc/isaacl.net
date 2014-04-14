@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tilt</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+  <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> -->
+  <script type="text/javascript" src="jquery-1.8.2.min.js"></script>
+  <script type="text/javascript" src="Util.js"></script>
+  <script type="text/javascript" src="Accelerometer.js"></script>
+  <script type="text/javascript" src="TiltApp.js"></script>
+  <script>
+    window.onload = function(){
+    new TiltApp();
+  }
+  </script>
+</head>
+
+<body>
+  <h1>Score: 100</h1>
+  <div id="line"></div>
+  <table id="bigtable">
+    <tr>
+      <td class="header">Dimension</td>
+      <td class="header">Target</td>
+      <td class="header">Observed</td>
+      <td class="header">Difference</td>
+  </tr>
+  <tr>
+      <td>x</td>
+      <td id="targetX">0</td>
+      <td id="observedX">0</td>
+      <td id="diffX">0</td>
+  </tr>
+  <tr>
+      <td>y</td>
+      <td id="targetY">0</td>
+      <td id="observedY">0</td>
+      <td id="diffY">0</td>
+  </tr>
+  <tr>
+      <td>z</td>
+      <td id="targetZ">0</td>
+      <td id="observedZ">0</td>
+      <td id="diffZ">0</td>
+  </tr>
+</table>
+
+<div id="buttons">
+    <button id="randombtn" onClick="randomizeTarget();">Randomize</button>
+    <button id="startoverbtn" onClick="startOver();">Start Over</button>
+    <button id="scorebtn" onClick="score();">Score!</button>
+</div>
+
+</body>
+
+</html>

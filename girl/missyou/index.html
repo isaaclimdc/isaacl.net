@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>I miss you, girl :)</title>
+  <meta charset="UTF-8">
+
+  <style>
+    body {
+      text-align: center;
+      margin: 0px auto;
+      background: #eee;
+      background-image: url('doggie.png');
+    }
+    #letterimg {
+      background: url('envelope.png');
+      background-position: 0px 0px;
+      height: 470px;
+      width: 530px;
+  
+      margin: 0px auto;
+      margin-top: 10%;
+      position: relative;
+    }
+    #letterimg:hover {
+      cursor: pointer;
+      background-position: -530px 0px;
+    }
+  </style>
+
+  <script src="jquery.min.js"></script>
+  <script>
+    function animateEnvelope() {
+      $( "#letterimg" ).animate({
+          opacity: 0,
+          top: "-300px",
+        }, 500, function() {
+          window.location = 'letter.pdf'
+        });
+    }
+  </script>
+</head>
+
+<body>
+  <div id="letterimg" onclick="animateEnvelope();"></a>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+@import url("reset.css");
+@import url(http://fonts.googleapis.com/css?family=Mr+Bedfort);
+
+html { 
+    background: url(images/angels.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#pic {
+    margin-top: 10%;
+    margin-left: -25%;
+
+    -webkit-transition: margin-left 300ms ease-in-out 0s;
+    -moz-transition: margin-left 300ms ease-in-out 0s;
+    -o-transition: margin-left 300ms ease-in-out 0s;
+    transition: margin-left 300ms ease-in-out 0s;
+
+    box-shadow: 0px 0px 20px #000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    background: #666;
+}
+
+#pic:hover {
+    margin-left: 5%;
+}
+
+#loveyou {
+    position: absolute;
+    right: 1%;
+    top: 47%;
+    font-family: 'Mr Bedfort', cursive;
+    color: #000;
+    font-size: 40px;
+    text-shadow: 2px 2px #eee;
+}
+
+#loveyou span {
+    font-size: 20px;
+    vertical-align: 50%;
+}

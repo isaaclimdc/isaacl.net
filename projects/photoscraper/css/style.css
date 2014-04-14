@@ -1,0 +1,83 @@
+h1 {
+  font-size: 100px;
+ /* font-weight: bold;*/
+  text-align: center;
+}
+
+#wrapper {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 900px;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  background-color: #787878;
+  background-image: url("../images/batthern.png");
+  box-shadow: 0px 0px 20px #787878;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+#logo {
+  float: left;
+  margin-left: 90px;
+  margin-right: -70px;
+}
+
+#title {
+  padding-top: 30px;
+}
+
+#searchform {
+  margin-top: 30px;
+}
+  #searchform span {
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+
+#searchboxes input {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: #000000;
+}
+  #searchtag {
+    margin-right: 30px;
+  }
+  input::-webkit-input-placeholder {
+      color: #8F8F8F;
+  }
+  input:-moz-placeholder {
+      color: #8F8F8F;
+  }
+
+#searchradios {
+  margin-bottom: 30px;
+}
+
+#searchsubmit {
+  width: 100px;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+#addressfound {
+  font-size: 30px;
+  text-align: center;
+  color: #4F4F4F;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#wapiblock {
+  height: 300px;
+}
+  #wapiblock .panoramio-wapi-images {
+    background-color: #AAAAAA;
+  }
