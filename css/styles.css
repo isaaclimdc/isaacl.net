@@ -1,6 +1,5 @@
 body {
-    background: #fafaf9;
-    background-image: url('../images/wool.png');
+    background: #fafafa;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 12px;
     width: 960px;
@@ -21,6 +20,7 @@ a:hover {
     margin-top: 100px;
     text-align: center;
     color: #000000;
+    margin-bottom: 100px;
 }
 #nameTitle h1 {
     font-size: 70px;
@@ -38,16 +38,6 @@ a:hover {
     color: #000000;
 }
 
-/* Contact */
-#contact {
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-#contact a {
-    font-size: 26px;
-}
-
 /* Portfolio Boxes */
 .box {
     height: 500px;
@@ -55,15 +45,8 @@ a:hover {
     text-align: center;
     background: #ffffff;
     overflow: hidden;
-
-    -moz-box-shadow:0 0 5px #666666;
-    -webkit-box-shadow:0 0 5px #666666;
-    box-shadow:0 0 5px #666666;
-}
-.box:hover {
-    -moz-box-shadow:0 0 8px #666666;
-    -webkit-box-shadow:0 0 8px #666666;
-    box-shadow:0 0 8px #666666;
+    border: 2px solid #eee;
+    border-radius: 15px;
 }
 .box .description {
     float: left;
@@ -80,7 +63,7 @@ a:hover {
 .box p {
     clear: both;
     line-height: 170%;
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 .box .description a {
